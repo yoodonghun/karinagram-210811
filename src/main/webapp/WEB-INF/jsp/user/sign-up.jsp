@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-   <h1 style="color:red; font-weight-bold">JSP View Test</h1>
+    
 </body>
 </html>

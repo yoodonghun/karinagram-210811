@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class UserController {
    
-	@RequestMapping("/signUp_view")
+	@RequestMapping("/sign_up_view")
 	public String logInView(Model model) {
-		model.addAttribute("viewName", "user/sign-up");
+		model.addAttribute("viewName", "user/sign_up");
 		
 		return "template/layout";
 	}
