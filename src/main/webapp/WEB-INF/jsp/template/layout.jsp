@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+      
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +14,17 @@
 <link rel="stylesheet" type="text/css" href="/static/css/style.css">
 </head>
 <body>
-   test
+   <div id="wrap" class="container">
+       <header class="bg-warning">
+          <jsp:include page="../include/gnb.jsp" /> <!-- (  ../  ) -> 지금 들어있는 파일에서 파일 하나 위로 올라감 --> 
+      </header>
+          </div>
+       </header>
+       <section>
+       
+       </section>
+       
+       
+   </div>
 </body>
 </html>
